@@ -6,7 +6,7 @@ import React from "react"
 const StyledLink = styled(props => <Link {...props} />)`
   font-family: "PT Mono";
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   color: white;
   text-transform: uppercase;
   text-decoration: none;

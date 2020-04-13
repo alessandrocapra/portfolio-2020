@@ -7,6 +7,7 @@ const MenuWrapper = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 150px;
 `
 
 const MenuList = styled.ul`

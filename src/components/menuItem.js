@@ -10,9 +10,8 @@ const StyledLink = styled(props => <Link {...props} />)`
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  line-height: 27px;
-  padding-left: 32px;
-  padding-right: 32px;
+  line-height: 25px;
+  padding: 3.5rem 2rem;
 `
 
 const MenuItem = props => <StyledLink to={props.link}>{props.title}</StyledLink>
